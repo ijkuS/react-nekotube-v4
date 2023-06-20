@@ -1,8 +1,8 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import { useQuery } from '@tanstack/react-query';
-import { FormatAgo } from '../util/date';
 import { useYoutubeApi } from '../context/YoutubeApiContext';
+import { FormatAgo } from '../util/date';
 
 export default function VideoCard({ video, type}) {
 	const { title, thumbnails, channelTitle, channelId, publishedAt } =
