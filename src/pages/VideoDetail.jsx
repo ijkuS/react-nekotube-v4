@@ -32,6 +32,7 @@ export default function VideoDetail() {
 						height='360'
 						src={`https://www.youtube.com/embed/${video.id}`}
 						frameborder='0'
+						title={title}
 					/>
 				</div>
 				<div className='mt-3'>
